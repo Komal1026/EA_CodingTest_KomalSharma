@@ -10,12 +10,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
+import Base.TestBase;
 import io.cucumber.java.en.*;
 
 
-public class musicfestivalSteps {
+public class musicfestivalSteps extends TestBase {
 	
-	WebDriver driver=null;
+	//WebDriver driver=null;
 	
 	
 	@Given("browser is open")
@@ -51,10 +52,10 @@ public class musicfestivalSteps {
 		System.out.println("Webpage is not loaded correctly");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 	    driver.navigate().refresh();
-	    System.out.println("Total no Bands available are:"+allElements.size());
+	    System.out.println("Total no. of Bands available are:"+allElements.size());
 	}
 	else
-		System.out.println("Total no Bands available are:"+allElements.size());
+		System.out.println("Total no. of Bands available are:"+allElements.size());
 	//driver.close();
 	}
 	

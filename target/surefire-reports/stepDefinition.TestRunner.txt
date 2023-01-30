@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: stepDefinition.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.712 s <<< FAILURE! - in stepDefinition.TestRunner
-To validate label name against each band name #2(feature to test music festival webpage)  Time elapsed: 6.796 s  <<< ERROR!
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 18.637 s <<< FAILURE! - in stepDefinition.TestRunner
+To validate label name against each band name #2(feature to test music festival webpage)  Time elapsed: 6.853 s  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/app-root/app-festivals/ol/li[1]"}
   (Session info: chrome=109.0.5414.120)
@@ -10,7 +10,7 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d52738c74887a5879c3a72716de0c578, findElement {using=xpath, value=/html/body/app-root/app-festivals/ol/li[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\patid\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57527}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57527/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d52738c74887a5879c3a72716de0c578
+Command: [dac10f3b7b37728b4d087a195e876b63, findElement {using=xpath, value=/html/body/app-root/app-festivals/ol/li[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\patid\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53086}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53086/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dac10f3b7b37728b4d087a195e876b63
 
